@@ -4,6 +4,7 @@ import MovieList from './MovieList';
 import SelectedMovies from './SelectedMovies';
 import './App.css';
 import Title from './Title.jsx';
+ 
 
 let App = () => {
   let [movies, setMovies] = useState([]);
@@ -62,6 +63,7 @@ let App = () => {
     <div className="app-container">
       <SearchBar onSearch={handleSearch} />
       <Title /> 
+  
       <MovieList movies={movies} addMovieToSelected={addMovieToSelected} />
       <SelectedMovies
         selectedMovies={selectedMovies}

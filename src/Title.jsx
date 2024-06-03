@@ -10,8 +10,6 @@ class Title extends Component {
         return(
 <div>
     <h1>MUSTSEE</h1>
-
-   
 </div>
 
 

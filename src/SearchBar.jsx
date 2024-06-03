@@ -16,7 +16,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search for movies..."
       />
-      <button onClick={handleSearch}>Search</button>
+      <button className='search-button' onClick={handleSearch}>Search</button>
     </div>
   );
 };
